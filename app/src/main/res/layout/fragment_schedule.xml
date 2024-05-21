@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:id="@+id/viewMonday"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segunda-feira" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/viewTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewMonday">
+
+        <TextView
+            android:id="@+id/textViewTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terça-feira" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/viewWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTuesday">
+
+        <TextView
+            android:id="@+id/textViewWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quarta-feira" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/viewThursday"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewWednesday">
+
+        <TextView
+            android:id="@+id/textViewThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quinta-feira" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/viewFriday"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewThursday">
+
+        <TextView
+            android:id="@+id/textViewFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexta-feira" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
